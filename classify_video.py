@@ -13,17 +13,17 @@
 # limitations under the License.
 # ==============================================================================
 
-"""Simple image classification with Inception.
+"""Simple video classification with Inception.
 
-Run image classification with Inception trained on ImageNet 2012 Challenge data
-set.
+Run video classification with Inception trained on ImageNet 2012 Challenge data
+set. Video converts into image fram by frame.
 
 This program creates a graph from a saved GraphDef protocol buffer,
 and runs inference on an input JPEG image. It outputs human readable
 strings of the top 5 predictions along with their probabilities.
 
-Change the --image_file argument to any jpg image to compute a
-classification of that image.
+Change the --video_file argument to any video to compute a
+classification of that video after converting to image frames.
 
 Please see the tutorial and website for a detailed description of how
 to use this script to perform image recognition.
